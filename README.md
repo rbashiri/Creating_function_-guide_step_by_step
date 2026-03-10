@@ -5,6 +5,7 @@ This project introduces how to create and use functions in Python. It explains t
 ## Files
 
 - `practice.ipynb`: Notebook with examples and practice exercises.
+- `function_examples.py`: Python examples moved from the README.
 - `README.md`: Project overview and function guide.
 
 ## Project Overview
@@ -27,27 +28,13 @@ Functions help programmers:
 
 ## Function Structure in Python
 
-```python
-def function_name(parameters):
-    # code block
-    return result
-```
+Function template:
 
-Example:
+`def function_name(parameters):`
 
-```python
-def add_numbers(a, b):
-    return a + b
+`    return result`
 
-result = add_numbers(3, 5)
-print(result)
-```
-
-Output:
-
-```text
-8
-```
+Example implementations are in `function_examples.py`.
 
 ## Steps to Create a Function
 
@@ -57,45 +44,17 @@ Output:
 4. Write the function body
 5. Call the function and check the output
 
-Example:
-
-```python
-def add_numbers(a, b):
-    result = a + b
-    return result
-
-print(add_numbers(4, 6))
-```
+Example implementations are in `function_examples.py`.
 
 ## Example Functions
 
 ### Greeting Function
 
-```python
-def greet(name):
-    print("Hello", name)
-
-greet("Robabeh")
-```
-
 ### Check if a Number Is Even
-
-```python
-def is_even(number):
-    return number % 2 == 0
-
-print(is_even(4))
-print(is_even(7))
-```
 
 ### Calculate Rectangle Area
 
-```python
-def calculate_area(length, width):
-    return length * width
-
-print(calculate_area(5, 3))
-```
+All code for these examples is now in `function_examples.py`.
 
 ## Key Concepts
 
